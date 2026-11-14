@@ -28,7 +28,7 @@ DEFAULT_CONFIG = {
     },
     'features': {'enable_history': True, 'history_limit': 16},
     'defaults': {'temperature': 0.7, 'max_tokens': 1400},
-    'model': {'name': 'gemini-2.5-flash'},
+    'model': {'name': 'gemini-3.8-flash'},
 }
 
 
