@@ -1,0 +1,30 @@
+{
+  "default_provider": "gemini",
+  "language": "Français",
+  "site_url": "https://github.com/00x0kafyy/worm-ai",
+  "site_name": "WormGPT API",
+  "system_prompt_file": "prompts/default.txt"
+  "routes": {
+    "root": true,
+    "chat": true,
+    "health": true
+  },
+  "providers": {
+    "gemini": {
+      "enabled": true,
+      "api_key_env": "AIzaSyAKUTPRGMjB7kkoE6r6YKaCNAOET84wdrs",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta"
+    }
+  },
+  "features": {
+    "enable_history": true,
+    "history_limit": 16
+  },
+  "defaults": {
+    "temperature": 0.7,
+    "max_tokens": 1400
+  },
+  "model": {
+    "name": "gemini-2.5-flash"
+  }
+}
