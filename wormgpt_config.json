@@ -25,6 +25,6 @@
     "max_tokens": 1400
   },
   "model": {
-    "name": "gemini-3.8-flash"
+    "name": "gemini-1.5-flash"
   }
 }
